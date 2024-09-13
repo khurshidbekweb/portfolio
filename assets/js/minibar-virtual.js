@@ -186,7 +186,6 @@ $(document).ready(function() {
 
     } , { offset: '95%' } );
   }
-
 }
 counterInit();
 });
