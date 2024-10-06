@@ -27,9 +27,9 @@ window.addEventListener('DOMContentLoaded', () => {
             body: JSON.stringify({
                 chat_id: chatId,
                 text: ` Name: ${object.Name}
-                        Email: ${object.Email} 
-                        Subject: ${object.Subject}
-                        Message: ${object.Message}
+Email: ${object.Email} 
+Subject: ${object.Subject}
+Message: ${object.Message}
                 `
                 })
             }

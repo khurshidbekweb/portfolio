@@ -87,7 +87,8 @@ a:hover, a:active {
 }
 
 .img-place > img {
-    width: 100%;height: auto;
+    width: 100%;
+    height: 253px !important;
 }
 
 /* Overlay */
@@ -1025,10 +1026,19 @@ a:hover, a:active {
 }
 
 .grid-item {
+    position: relative;
     display: block;
     float: left;
     margin: 16px 0;
     padding: 0 16px;
+}
+.link-project{
+    position: absolute;
+    right: 23px;
+    display: flex;
+    gap: 5px;
+    bottom: 10px;
+    z-index: 99;
 }
 
 .grid-item,
