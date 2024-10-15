@@ -444,21 +444,14 @@ a:hover, a:active {
 
 .progress {
     margin-top: 5px;
-    height: 1.25rem;
-    border: 2px solid #fff;
-    background-color: #fff;
-    box-shadow: 0 0 0 2px #747474;
+    height:3px;
 }
 
 .progress,
 .progress-bar {
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
-.progress-bar {
-    font-size: 12px;
-    background-color: #747474;
-}
 
 /* 
     5. Preloader

@@ -5463,10 +5463,10 @@ a.badge-dark:focus, a.badge-dark.focus {
   -ms-flex-pack: center;
   justify-content: center;
   overflow: hidden;
-  color: #fff;
   text-align: center;
   white-space: nowrap;
   background-color: #007bff;
+  color: red;
   transition: width 0.6s ease;
 }
 
