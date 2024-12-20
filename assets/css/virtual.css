@@ -1031,9 +1031,13 @@ a:hover, a:active {
     display: flex;
     gap: 5px;
     bottom: 10px;
-    z-index: 99;
+    z-index: 29;
 }
-
+.img-portfolio{
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+}
 .grid-item,
 .grid-sizer {
     width: 100%;
